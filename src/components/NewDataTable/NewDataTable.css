@@ -1,0 +1,56 @@
+.table {
+  margin-top: 5rem;
+}
+
+.singleData {
+  width: 50%;
+  background-color: coral;
+  margin: auto;
+  display: flex;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.singleData__eng,
+.singleData__per {
+  width: 45%;
+  padding: 1rem 0;
+}
+
+.singleData__per {
+  direction: rtl;
+  border-left: solid 0.5px aliceblue;
+}
+
+.singleData__ {
+  width: 10%;
+  margin: auto;
+}
+
+.table_header {
+  margin-bottom: 1rem;
+}
+
+.table_header {
+  display: flex;
+  justify-content: center;
+}
+
+.add-word-section, .edit-word-section {
+  background: #000000e8;
+  color: white;
+  position: fixed;
+  width: 40vw;
+  height: 40vh;
+  top: 30%;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* display: none; */
+  border-radius: 20px;
+}
+
+.add-word-section button, .edit-word-section button {
+  width: 56%;
+  margin: 0 auto;
+}
