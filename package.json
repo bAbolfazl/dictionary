@@ -2,6 +2,7 @@
   "name": "facerecognitionbrain",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://babolfazl.github.io/dictionary"
   "dependencies": {
     "clarifai": "^2.5.0",
     "gh-pages": "^2.2.0",
